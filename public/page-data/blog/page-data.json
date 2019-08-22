@@ -1,1 +1,10 @@
-{"componentChunkName":"component---src-pages-blog-index-js","path":"/blog/","webpackCompilationHash":"","result":{"pageContext":{"isCreatedByStatefulCreatePages":true}}}
+{
+    "componentChunkName": "component---src-pages-blog-index-js",
+    "path": "/blog/",
+    "webpackCompilationHash": "",
+    "result": {
+        "pageContext": {
+            "isCreatedByStatefulCreatePages": true
+        }
+    }
+}
