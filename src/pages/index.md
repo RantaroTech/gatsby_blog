@@ -5,7 +5,7 @@ image: /img/home-jumbotron.jpg
 heading: えぇじゃないかブログ
 subheading: 読んで「えぇじゃないか」と思えるブログ
 mainpitch:
-  title: プログラミングの記事がメインのブログです
+  title: プログラミングのブログです
   description: 著者が学んだ内容を記事にしていきます。
 description: 記事を読んでもらって『えぇじゃないか！』と発見がある記事を目指します。
 intro:
