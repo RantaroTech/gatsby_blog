@@ -46,7 +46,7 @@ const Navbar = class extends React.Component {
             </Link>
             {/* Hamburger menu */}
             <div
-              className={`navbar-burger burger ${this.state.navBarActiveClass}`}
+              className={`navbar-burger burger ${ this.state.navBarActiveClass }`}
               data-target="navMenu"
               onClick={() => this.toggleHamburger()}
             >
@@ -57,23 +57,20 @@ const Navbar = class extends React.Component {
           </div>
           <div
             id="navMenu"
-            className={`navbar-menu ${this.state.navBarActiveClass}`}
+            className={`navbar-menu ${ this.state.navBarActiveClass }`}
           >
             <div className="navbar-start has-text-centered">
               <Link className="navbar-item" to="/about">
                 About
               </Link>
-              <Link className="navbar-item" to="/products">
-                Products
-              </Link>
               <Link className="navbar-item" to="/blog">
-                Blog
+                ブログ
               </Link>
               <Link className="navbar-item" to="/contact">
-                Contact
+                お問合わせ
               </Link>
               <Link className="navbar-item" to="/contact/examples">
-                Form Examples
+                著者プロフィール
               </Link>
             </div>
             <div className="navbar-end has-text-centered">

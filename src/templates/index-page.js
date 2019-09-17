@@ -86,8 +86,8 @@ export const IndexPageTemplate = ({
                   </div>
                   <div className="columns">
                     <div className="column is-12 has-text-centered">
-                      <Link className="btn" to="/products">
-                        See all products
+                      <Link className="btn" to="/blog">
+                        記事を読む
                     </Link>
                     </div>
                   </div>
@@ -98,7 +98,7 @@ export const IndexPageTemplate = ({
                     <BlogRoll />
                     <div className="column is-12 has-text-centered">
                       <Link className="btn" to="/blog">
-                        Read more
+                        もっと読む
                     </Link>
                     </div>
                   </div>
