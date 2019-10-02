@@ -1,8 +1,11 @@
 var plugins = [{
-      plugin: require('/Users/matsubaragenki/Documents/GitHub/eezyanaika/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/genki.matsubara/Documents/GitHub/eezyanaika/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/matsubaragenki/Documents/GitHub/eezyanaika/node_modules/gatsby-remark-images/gatsby-ssr'),
+      plugin: require('/Users/genki.matsubara/Documents/GitHub/eezyanaika/node_modules/gatsby-plugin-google-analytics/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/genki.matsubara/Documents/GitHub/eezyanaika/node_modules/gatsby-remark-images/gatsby-ssr'),
       options: {"plugins":[],"maxWidth":2048},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

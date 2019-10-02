@@ -5,6 +5,7 @@
   "author": "Austin Green",
   "dependencies": {
     "bulma": "^0.7.0",
+    "cjs": "0.0.11",
     "gatsby": "^2.13.31",
     "gatsby-image": "^2.0.23",
     "gatsby-plugin-google-analytics": "^2.1.16",
@@ -31,7 +32,9 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "react-helmet": "^5.2.0",
-    "uuid": "^3.2.1"
+    "sharp": "^0.23.1",
+    "uuid": "^3.2.1",
+    "yoga-layout-prebuilt": "^1.9.3"
   },
   "keywords": [
     "gatsby"
