@@ -71,6 +71,10 @@ const BlogPost = ({ data }) => {
               content={`${post.frontmatter.title}`}
             />
             <meta
+              property="og:title"
+              content={`${post.frontmatter.title}`}
+            />
+            <meta
               name="description"
               content={`${post.frontmatter.description}`}
             />
