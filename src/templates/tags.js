@@ -23,7 +23,16 @@ class TagRoute extends React.Component {
     return (
       <Layout>
         <section className="section">
-          <Helmet title={`${tag} | ${title}`} />
+          <Helmet
+            title={`${tag} | ${title}`}
+            meta={[
+              {
+                name: 'google-site-verification',
+                content:
+                  'SPT_gzXtOTNTkHhIB1DyDl6tRUbLBUrLUnD8gysdOW4',
+              },
+            ]}
+          />
           <div className="container content">
             <div className="columns">
               <div

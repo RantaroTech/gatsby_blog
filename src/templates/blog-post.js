@@ -70,6 +70,10 @@ const BlogPost = ({ data }) => {
               name="description"
               content={`${post.frontmatter.description}`}
             />
+            <meta
+              name="google-site-verification"
+              content="SPT_gzXtOTNTkHhIB1DyDl6tRUbLBUrLUnD8gysdOW4"
+            />
           </Helmet>
         }
         tags={post.frontmatter.tags}
