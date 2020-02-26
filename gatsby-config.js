@@ -2,9 +2,9 @@ var proxy = require('http-proxy-middleware')
 
 module.exports = {
   siteMetadata: {
-    title: 'ええじゃないか',
+    title: 'ええじゃないかブログ',
     description:
-      '「ええじゃないか。」と気楽に更新しているエンジニアブログです。',
+      '「ええじゃないか」と思ってもらえる記事を目指します。',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
