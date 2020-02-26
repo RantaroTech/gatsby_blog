@@ -15,7 +15,7 @@ const TagsPage = ({
   <Layout>
     <section className="section">
     <Helmet
-      title={`${tag} | ${title}`}
+      title={`${title}`}
       meta={[
         {
           name: 'google-site-verification',
