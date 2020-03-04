@@ -2,11 +2,11 @@
 templateKey: index-page
 title: えぇじゃないかブログ
 image: /img/home-jumbotron.jpg
-heading: えぇじゃないかブログ
+heading: 
 subheading: 「えぇじゃないか」と思えるブログ
 mainpitch:
   title: プログラミングのブログです
-  description: 著者が学んだ内容を記事にしていきます。
+  description: 著者が学んだ内容をもとに学習のアウトプットをしています。
 description: 記事を読んでもらって『えぇじゃないか！』と発見がある記事を目指します。
 intro:
   blurbs: []
