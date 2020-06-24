@@ -5,9 +5,11 @@ module.exports = {
     title: 'ええじゃないかブログ',
     description:
       '「ええじゃないか」と思ってもらえる記事を目指します。',
+    siteUrl: `https://www.eezyanaika.com/`,
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    `gatsby-plugin-sitemap`,
     'gatsby-plugin-sass',
     {
       resolve: `gatsby-source-instagram`,
