@@ -6,7 +6,7 @@
   "dependencies": {
     "bulma": "^0.7.0",
     "cjs": "0.0.11",
-    "gatsby": "^5.9.0",
+    "gatsby": "^5.9.1",
     "gatsby-image": "^2.0.23",
     "gatsby-plugin-google-analytics": "^2.1.16",
     "gatsby-plugin-netlify": "^2.0.6",
